@@ -1,0 +1,90 @@
+.navbar-collapse{
+    justify-content: end;
+  }
+  
+.tombol {
+  text-transform: uppercase;
+  border-radius: 14px;
+}
+
+.jumbotron {
+  background-image: url(img/jum.jpg);
+  background-size:cover ;
+  height: 640px;
+}
+
+.bgjum {
+  background-color: #d3d1de;
+}
+.bgab {
+  background-color: #ebedf5 ;
+}
+
+.card {
+  border: none !important;
+}
+.col-md-8 {
+  background-color: #ebedf5 ;
+}
+
+.about {
+  position: relative;
+}
+
+.tengah {
+  text-align: center;
+}
+
+.besar {
+  font-size: 27px;
+}
+
+.bgtop {
+  background-color: #081126;
+}
+
+
+  /* Desktop */
+  @media (min-width: 992px) {
+    .nav-bar, .nav-link {
+      color: white;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .navbar-brand {
+      color: white !important;
+    }
+    .nav-link{
+      text-transform: uppercase;
+      margin-right: 14px;
+    }
+    .nav-link:hover::after {
+      content: '';
+      display: block;
+      border-bottom: 3px solid #3432a8;
+      width: 50%;
+      margin: auto;
+      padding-bottom: 5px;
+      margin-bottom: -8px;
+    }
+    .jumbotron {
+      margin-top: -75px;
+    }
+
+    .padatas {
+      padding-top: 85px;
+    }
+
+    .pj {
+      width: 480px !important;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+      
+    }
+
+
+    .card-group {
+      padding-top: 65px;
+    }
+    .card-img-top {
+      height: 271px;
+    }
+  }
